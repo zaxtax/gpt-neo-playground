@@ -11,5 +11,5 @@ Then use inference to try out some prompts:
 
 ````python
 from demo import inference
-inference("# Returns a list n primes")
+inference("# Returns a list of n primes")
 ````
