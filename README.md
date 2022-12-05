@@ -19,7 +19,7 @@ With the Facebook model, infill is supported
 ````python
 prompt = """
 def count_words(filename: str) -> <|mark:0|i>
-    """Count the number of occurrences of each word in the file."""
+    \"""Count the number of occurrences of each word in the file.\"""
     with open(filename, 'r') as f:
         word_counts = {}
         for line in f:
