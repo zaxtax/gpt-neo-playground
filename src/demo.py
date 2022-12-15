@@ -7,6 +7,7 @@ models = [
     "EleutherAI/gpt-neo-2.7B",
     "EleutherAI/gpt-neo-125M",
     "togethercomputer/GPT-JT-6B-v1",
+    "google/flan-t5-small",
 ]
 
 # Only load these models on a machine with lots of VRAM and disc space
@@ -14,6 +15,7 @@ big_models = [
     "Salesforce/codegen-6B-mono",
     "Salesforce/codegen-16B-mono",
     "facebook/incoder-6B",
+    "google/flan-t5-xl",
 ]
 
 tokenizer = AutoTokenizer.from_pretrained(models[0])
