@@ -6,6 +6,7 @@ models = [
     "facebook/incoder-1B",
     "EleutherAI/gpt-neo-2.7B",
     "EleutherAI/gpt-neo-125M",
+    "bigcode/santacoder",
     "togethercomputer/GPT-JT-6B-v1",
     "google/flan-t5-small",
 ]
